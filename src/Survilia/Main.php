@@ -2,6 +2,7 @@
 
 namespace main;
 
-require "event\serveur.php";
-new Serveur();
+class Main(){
+  require "event\serveur.php";
+  new Serveur();
 }
