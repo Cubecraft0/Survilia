@@ -17,6 +17,6 @@ class Main extends PluginBase {
     $this->getLogger()->info("plugin killed");
   }
 
-  $onJoin = newPlayerJoin();
-  $onjoin;
+  const $onJoin = newPlayerJoin();
+  const $onjoin;
 }
