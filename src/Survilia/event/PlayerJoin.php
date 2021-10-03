@@ -6,7 +6,7 @@ use pocketmine\evnt\Listener;
 
 class PlayerJoin implements Listener{
 
-  public function newPlayerJoin (PlayerJoinEvent $event){
+  public function newPlayerJoin(PlayerJoinEvent $event){
     $player = $event->getPlayer();
     $player->setJoinMessage(" ");
 
