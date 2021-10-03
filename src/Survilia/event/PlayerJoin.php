@@ -14,4 +14,6 @@ class PlayerJoin implements Listener{
       $player->sendMessage("Bienvenue à toi ".$player->getName());
     }
   }
+
+  newPlayerJoin();
 }

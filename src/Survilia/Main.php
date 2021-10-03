@@ -2,8 +2,6 @@
 
 namespace main;
 
-require("event\PlayerJoin.php");
-
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
 
@@ -17,6 +15,5 @@ class Main extends PluginBase {
     $this->getLogger()->info("plugin killed");
   }
 
-  const $onJoin = newPlayerJoin();
-  $onjoin;
+  include("event\PlayerJoin.php");
 }
