@@ -4,7 +4,7 @@ namespace main;
 
 use pocketmine\plugin\Plugin;
 
-class Main extends Plugin {
+class Main interface Plugin {
   public function onEnable(){
     $this->getLogger()->info("plugin started");
   }
