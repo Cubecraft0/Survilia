@@ -5,6 +5,7 @@ namespace main;
 $PlayerJoin = require("event\PlayerJoin.php");
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\event\Listener;
 
 class Main extends PluginBase {
   public function onEnable(){
