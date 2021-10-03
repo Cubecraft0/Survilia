@@ -18,5 +18,5 @@ class Main extends PluginBase {
   }
 
   const $onJoin = newPlayerJoin();
-  const $onjoin;
+  $onjoin;
 }
