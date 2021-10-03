@@ -1,5 +1,7 @@
 <?php
 
+namespace main;
+
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
