@@ -2,6 +2,8 @@
 
 namespace main;
 
+$PlayerJoin = require("event\PlayerJoin.php");
+
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
@@ -12,4 +14,6 @@ class Main extends PluginBase {
   public function onDisable(){
     $this->getLogger()->info("plugin killed");
   }
+
+  $PlayerJoin->newPlayerJoin();
 }
