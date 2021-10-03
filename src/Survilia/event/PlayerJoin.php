@@ -5,7 +5,6 @@ use pocketmine\event\PlayerJoinEvent;
 use pocketmine\evnt\Listener;
 
 class PlayerJoin implements Listener{
-  $this->getServer()->getPluginManager()->registerEvents($this, $this);
 
   public function newPlayerJoin $event){
     $player = $event->getPlayer();

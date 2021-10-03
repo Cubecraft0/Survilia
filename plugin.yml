@@ -1,5 +1,5 @@
 name: Survilia
 version: 1.0.0
-main: main\Main
+main: Survilia\Main
 api: 3.23.1
 author: Cubecraft0
