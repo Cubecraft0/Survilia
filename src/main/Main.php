@@ -2,7 +2,7 @@
 
 namespace main;
 
-use pocketmine\plugin\PluginBase;
+use pocketmine\plugin\Plugin;
 
 class Main extends PluginBase {
   public function onEnable(){
